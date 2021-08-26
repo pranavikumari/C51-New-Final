@@ -1,0 +1,40 @@
+
+          h1{
+              color:rgb(208, 255, 0);
+              font-size:50px;
+              font-family:Arial, Helvetica, sans-serif;
+              text-decoration:underline;
+              text-decoration-color:chocolate;
+              margin-top:20px;
+              width:100px;
+          }
+          /* *{
+              border:solid;
+          } */
+          body{
+              background-color:rgb(128,128,128);
+          }
+          .header{
+              background-color:rgb(93, 154, 252);
+              display:flex;
+              justify-content:space-around;
+              border-radius: 4px;
+              border-color: chocolate;
+          
+          }
+          .grid{
+              display:flex;
+              flex-wrap:wrap;
+              justify-content:space-evenly;
+          }
+          .footer{
+              background-color:rgb(56, 235, 163);
+              display:flex;
+              justify-content:flex-end;
+          }
+          p,h2{
+              text-align:center;
+              margin-bottom: 50px;
+              
+          }
+      
